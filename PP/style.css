@@ -1,0 +1,167 @@
+/*importing fonts*/
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*body*/
+.bod {
+    margin: 0;
+    position: relative; 
+    background-color: aliceblue;
+}
+/*navigation*/
+.navlist {
+    position: fixed;
+    text-align: left;
+    z-index: 3;
+    height: 2vmin 8vmax;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+.nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 5vw;
+}
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.25vw;
+    font-family: Orbitron;
+}
+.logo {
+    border: solid;
+    border-color: #FFF;
+}
+/*content of website*/
+.webContent {
+    position: relative;
+    font-size: 0;
+    overflow: scroll;
+    background-color: aliceblue;
+}
+.block img{
+    z-index: 2;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.webContent img {
+    width: 100%;
+}
+.site{
+    text-align: center;
+    width: 50vw;
+    z-index: 3;
+    /*border: solid;
+    border-color: #FFF;*/
+    font-family: Lato;
+    font-size: 3vw;
+    color: #FFF;
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 25vw;
+    top: 50px;
+}
+.student {
+    text-align: center;
+    width: 30vw;
+    z-index: 3;
+    /*border: solid;
+    border-color: #FFF;*/
+    font-family: Lato;
+    font-size: 3vw;
+    color: #FFF;
+    position: absolute;
+    margin-top: 65vw;
+    margin-left: 67vw;
+    top: 50px;
+}
+.block .student a {
+    font-family: Lato;
+    font-size: 3vw;
+    color: #FFF;
+    text-decoration: none;
+}
+.professionals {
+    text-align: center;
+    width: 30vw;
+    z-index: 3;
+    /*border: solid;
+    border-color: #FFF;*/
+    font-family: Lato;
+    font-size: 3vw;
+    color: #FFF;
+    position: absolute;
+    margin-top: 109vw;
+    margin-left: 25vw;
+    top: 50px;
+}
+.block .professionals a {
+    font-family: Lato;
+    font-size: 3vw;
+    color: #FFF;
+    text-decoration: none;
+}
+.bottomOfPage {
+    font-size: 0;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.inf0 li {
+    
+    display: inline;
+    list-style-type: none;
+}
+.info li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.titleResources {
+    color: white;
+
+}
+
+h4 {
+    font-size: xx-large;
+    color: black;
+    text-align: left;
+}
+
+h6 {
+    font-size: xx-large;
+    color: black;
+    text-align: left;
+}
+
+
+h5{
+    font-size: large;
+    color: black;
+    text-align: left;
+}
+
